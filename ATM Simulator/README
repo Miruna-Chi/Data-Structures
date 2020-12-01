@@ -1,0 +1,52 @@
+Chiricu Miruna-Catalina
+312CB
+
+
+punctaj checker local: 72
+	- main()
+- citeste fiecare sir de caractere si se duce pe ramura indicata 
+de comanda 
+
+	- AlocHis 
+- aloca un elem. din istoricul unui card
+	
+	- AlocCard
+- aloca un elem. dintr-o lista de carduri
+
+	- Aloclsc & Aloclsc2
+- aloca si insereaza cardurile in lista in functie de pozitie
+- daca pozitia este mai mare decat pozitia maxima la care s-a
+ajuns pana atunci, aloca pana la pozitia maxima
+(nu aloca pana la (%nr_max_carduri) daca nu e nevoie)
+
+	- search 
+- cauta cardul in lista LC
+
+	- invalid_pin
+- verifica daca pinul are un format corespunzator
+
+	- inv_pin
+- aloca istoricul cu success/fail dupa ce verifica pinul si
+printeaza mesaje de eroare
+
+	- cancel 
+- aloca istoricul specific operatiei
+
+	- functiile specifice cerintei (unblock_card, pin_change,
+	recharge, cash_withdrawal etc.)
+- au format foarte asemanator, parcurg lista cu carduri, extrag 
+sau adauga informatii, printeaza mesaje de eroare
+
+	- cautare 
+- cauta si printeaza doar cardul al carui numar este dat ca input
+
+	- eliminare
+- elimina un card din lista
+
+	- suma cifrelor
+- numarul cardului este foarte lung si este un char
+- functia face suma cifrelor numarului cardului
+
+	- redimensionare
+- ia lista LC pas cu pas, adauga cardurile intr-o noua lista
+redimensionata
